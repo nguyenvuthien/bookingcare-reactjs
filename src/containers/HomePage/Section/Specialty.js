@@ -42,7 +42,7 @@ class Specialty extends Component {
                             {dataSpecialty && dataSpecialty.length > 0 &&
                                 dataSpecialty.map((item, index) => {
                                     return (
-                                        <div className='section-customize specialty-chilld'
+                                        <div className='section-customize specialty-child'
                                             key={index}
                                             onClick={() => this.handleViewDetailSpecialty(item)}
                                         >
